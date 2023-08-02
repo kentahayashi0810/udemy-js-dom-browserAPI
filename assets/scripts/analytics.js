@@ -1,6 +1,6 @@
 const intervalId = setInterval(() => {
   console.log("running analytics....");
-}, 2000);
+}, 4000);
 
 document.getElementById("stop-analytics-btn").addEventListener("click", () => {
   clearInterval(intervalId);
